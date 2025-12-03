@@ -1,0 +1,264 @@
+# ================================
+# Xcode
+# ================================
+
+## User settings
+xcuserdata/
+
+
+# Cursor AI Editor
+.cursor/
+.cursorignore
+.cursorrules
+
+
+## Xcode 8 and earlier compatibility
+*.xcscmblueprint
+*.xccheckout
+
+## Xcode 3 and earlier compatibility
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Xcode workspaces (if auto-generated)
+# *.xcworkspace
+
+# ================================
+# Swift Package Manager
+# ================================
+
+.build/
+.swiftpm/
+Package.resolved
+
+# ================================
+# CocoaPods
+# ================================
+
+# Uncomment if not checking in Pods/
+# Pods/
+
+# ================================
+# Carthage
+# ================================
+
+Carthage/Build/
+Carthage/Checkouts/
+
+# ================================
+# Accio
+# ================================
+
+Dependencies/
+.accio/
+
+# ================================
+# Fastlane
+# ================================
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+fastlane/README.md
+
+## Gym (build output)
+*.ipa
+*.app.dSYM.zip
+
+## Scan (test output)
+test_output/
+
+## Deliver/Pilot
+fastlane/metadata/review_information/
+fastlane/metadata/trade_representative_contact_information/
+
+## Match (certificates - never commit these)
+fastlane/certs/
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+## Fastlane environment
+fastlane/.env*
+!fastlane/.env.default
+
+## AppFile and Deliverfile credentials
+# fastlane/Appfile
+# fastlane/Deliverfile
+
+# ================================
+# macOS
+# ================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Icon must end with two \r
+Icon
+
+## Thumbnails
+._*
+
+## Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ================================
+# Code Injection
+# ================================
+
+iOSInjectionProject/
+
+# ================================
+# Development Tools
+# ================================
+
+## VS Code
+.vscode/
+
+## JetBrains IDEs (AppCode)
+.idea/
+*.iml
+
+## Vim
+*.swp
+*.swo
+*~
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ================================
+# Testing & Coverage
+# ================================
+
+*.xcresult
+coverage/
+*.gcda
+*.gcno
+*.gcov
+slather_report/
+
+# ================================
+# Archives & Exports
+# ================================
+
+*.xcarchive
+export/
+ExportOptions.plist
+
+# ================================
+# Secrets & Environment
+# ================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+secrets/
+*.secret
+*.secrets
+
+## API keys (common naming patterns)
+*-Info.plist.local
+Config.local.swift
+Secrets.swift
+
+
+# Firebase / Google Services config
+**/GoogleService-Info.plist
+CampusApp/GoogleService-Info.plist
+
+
+
+# ================================
+# CI/CD
+# ================================
+
+## GitHub Actions
+.github/workflows/*.local.yml
+
+## Bitrise
+bitrise.secrets.yml
+
+## Build artifacts
+artifacts/
+output/
+
+# ================================
+# Logs & Temporary Files
+# ================================
+
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+## Crash logs
+*.crash
+
+# ================================
+# Miscellaneous
+# ================================
+
+## Tuist
+Tuist/Dependencies/
+Tuist/ProjectDescriptionHelpers/.build/
+
+## XcodeGen
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+## Mint
+.mint/
+
+## Ruby (Fastlane dependencies)
+vendor/bundle/
+.bundle/
+
+## Node (if using any JS tooling)
+node_modules/
+CampusApp/GoogleService-Info.plist
+CampusApp/GoogleService-Info.plist
+CampusApp/GoogleService-Info.plist
+CampusApp/GoogleService-Info.plist

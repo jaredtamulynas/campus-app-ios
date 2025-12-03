@@ -1,0 +1,17 @@
+{
+  "id": "ncsu",
+  "displayName": "NC State University",
+  "bundleDisplayName": "Welcome Pack",
+  "secondaryColor": "#FFFFFF",
+  "logoURL": "https://oncampus.ncsu.edu/logo.png",
+  "welcomeMessage": "Welcome to the Pack!",
+  "description": "Your one-stop app for everything Wolfpack — maps, dining, events, and more.",
+  "mapCenter": {
+    "latitude": 35.7851,
+    "longitude": -78.6813
+  },
+  "mapZoom": {
+    "latitudeDelta": 0.03,
+    "longitudeDelta": 0.03
+  }
+}

@@ -1,0 +1,1821 @@
+{
+    "resources": [
+        {
+            "id": "mypack-portal",
+            "name": "MyPack Portal",
+            "description": "Your central hub for student services",
+            "icon": "square.grid.2x2.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://mypack.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "onecard",
+            "name": "Wolfpack OneCard",
+            "description": "Manage your campus ID",
+            "icon": "creditcard.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://onecard.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-3090",
+                "location": {
+                    "address": "2701 Cates Ave, Raleigh, NC 27695",
+                    "latitude": 35.7866,
+                    "longitude": -78.6647
+                }
+            }
+        },
+        {
+            "id": "campus-directory",
+            "name": "Campus Directory",
+            "description": "Find people and departments",
+            "icon": "person.text.rectangle.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://directory.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "ncsu-homepage",
+            "name": "NC State Homepage",
+            "description": "University home page",
+            "icon": "house.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "moodle",
+            "name": "Moodle (Wolfware)",
+            "description": "Learning management system",
+            "icon": "book.circle.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://moodle-courses2425.wolfware.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "academic-calendar",
+            "name": "Academic Calendar",
+            "description": "Important academic dates",
+            "icon": "calendar",
+            "category": "Academics",
+            "type": "sheetCover",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/calendars/academic/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "degree-works",
+            "name": "Degree Works",
+            "description": "Track your degree progress",
+            "icon": "chart.bar.doc.horizontal.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://degreeworks.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "course-catalog",
+            "name": "Course Catalog",
+            "description": "Browse all courses",
+            "icon": "books.vertical.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://catalogs.ncsu.edu/courselist/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "registration",
+            "name": "Course Registration",
+            "description": "Register for classes",
+            "icon": "doc.text.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://mypack.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "final-exams",
+            "name": "Final Exam Schedule",
+            "description": "View exam times and locations",
+            "icon": "clock.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/your-resources/exams/final-exams/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "hill-library",
+            "name": "D.H. Hill Library",
+            "description": "Main library and research hub",
+            "icon": "building.columns.fill",
+            "category": "Libraries",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.lib.ncsu.edu/spaces/dhhill"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-3364",
+                "location": {
+                    "address": "2 Broughton Dr, Raleigh, NC 27695",
+                    "latitude": 35.7868,
+                    "longitude": -78.6692
+                }
+            }
+        },
+        {
+            "id": "hunt-library",
+            "name": "James B. Hunt Jr. Library",
+            "description": "Technology-focused library",
+            "icon": "building.columns.fill",
+            "category": "Libraries",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.lib.ncsu.edu/spaces/hunt"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-7110",
+                "location": {
+                    "address": "1070 Partners Way, Raleigh, NC 27606",
+                    "latitude": 35.7729,
+                    "longitude": -78.6739
+                }
+            }
+        },
+        {
+            "id": "library-catalog",
+            "name": "Library Catalog",
+            "description": "Search books and resources",
+            "icon": "magnifyingglass",
+            "category": "Libraries",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://catalog.lib.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "study-rooms",
+            "name": "Study Room Reservations",
+            "description": "Reserve study spaces",
+            "icon": "door.left.hand.closed",
+            "category": "Libraries",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.lib.ncsu.edu/spaces/study-rooms"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfline-map",
+            "name": "Wolfline Live Map",
+            "description": "Real-time bus tracking",
+            "icon": "bus.fill",
+            "category": "Transportation",
+            "type": "customView",
+            "destination": {
+                "viewIdentifier": "WolflineMapView"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfline-routes",
+            "name": "Wolfline Routes & Schedules",
+            "description": "View all bus routes and schedules",
+            "icon": "map.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/wolfline/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfline-route-maps",
+            "name": "Wolfline Route Maps",
+            "description": "Detailed maps of all routes",
+            "icon": "map",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/wolfline/routes/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfline-alerts",
+            "name": "Wolfline Service Alerts",
+            "description": "Current service alerts and updates",
+            "icon": "exclamationmark.triangle.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/wolfline/alerts/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parking",
+            "name": "Parking Services",
+            "description": "Permits, maps, and availability",
+            "icon": "parkingsign.circle.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/parking/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parking-permits",
+            "name": "Parking Permits",
+            "description": "Purchase and manage parking permits",
+            "icon": "ticket.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/parking/permits/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parking-maps",
+            "name": "Parking Maps",
+            "description": "Find parking locations on campus",
+            "icon": "map",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/parking/visitor/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parking-rates",
+            "name": "Parking Rates",
+            "description": "View parking permit rates and options",
+            "icon": "dollarsign.circle.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/parking/permits/rates.php"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parking-citations",
+            "name": "Pay Parking Citations",
+            "description": "Pay or appeal parking tickets",
+            "icon": "doc.text.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://citation.tpermits.com/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "gopass",
+            "name": "GoPass Transit App",
+            "description": "Free public transit access",
+            "icon": "tram.fill",
+            "category": "Transportation",
+            "type": "appStore",
+            "destination": {
+                "url": "https://apps.apple.com/us/app/gopass/id1458336567"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "bike-registration",
+            "name": "Bike Registration",
+            "description": "Register your bicycle",
+            "icon": "bicycle",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/biking/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "dining-locations",
+            "name": "Dining Locations & Hours",
+            "description": "Find where to eat on campus",
+            "icon": "fork.knife",
+            "category": "Dining",
+            "type": "customView",
+            "destination": {
+                "viewIdentifier": "DiningLocationsView"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "dining-menus",
+            "name": "Dining Menus",
+            "description": "View daily menus",
+            "icon": "list.bullet.rectangle.fill",
+            "category": "Dining",
+            "type": "webView",
+            "destination": {
+                "url": "https://dining.ncsu.edu/locations-menus/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "meal-plans",
+            "name": "Meal Plans",
+            "description": "Purchase and manage meal plans",
+            "icon": "creditcard.and.123",
+            "category": "Dining",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://dining.ncsu.edu/meal-plans/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            }
+        },
+        {
+            "id": "grubhub",
+            "name": "Grubhub - Order Ahead",
+            "description": "Order campus dining for pickup",
+            "icon": "bag.fill",
+            "category": "Dining",
+            "type": "appStore",
+            "destination": {
+                "url": "https://apps.apple.com/us/app/grubhub-food-delivery-takeout/id302920553"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "student-accounts",
+            "name": "Student Account Services",
+            "description": "Manage billing and payments",
+            "icon": "dollarsign.circle.fill",
+            "category": "Financial Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/your-money/student-account-services/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            }
+        },
+        {
+            "id": "financial-aid",
+            "name": "Financial Aid Office",
+            "description": "Aid information and resources",
+            "icon": "graduationcap.fill",
+            "category": "Financial Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/your-money/financial-aid/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2421",
+                "email": "financial_aid@ncsu.edu"
+            }
+        },
+        {
+            "id": "scholarships",
+            "name": "Scholarships",
+            "description": "Find scholarship opportunities",
+            "icon": "trophy.fill",
+            "category": "Financial Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://scholarships.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            }
+        },
+        {
+            "id": "university-housing",
+            "name": "University Housing",
+            "description": "On-campus housing portal",
+            "icon": "house.fill",
+            "category": "Housing",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://housing.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2440",
+                "email": "housing@ncsu.edu"
+            }
+        },
+        {
+            "id": "off-campus-housing",
+            "name": "Off-Campus Housing",
+            "description": "Find off-campus housing options",
+            "icon": "building.2.fill",
+            "category": "Housing",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://offcampuspartners.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "student-health",
+            "name": "Student Health Services",
+            "description": "Medical care and services",
+            "icon": "cross.case.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studenthealth.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2563",
+                "location": {
+                    "address": "3rd Floor, Talley Student Union",
+                    "latitude": 35.7714,
+                    "longitude": -78.6733
+                }
+            }
+        },
+        {
+            "id": "counseling-center",
+            "name": "Counseling Center",
+            "description": "Mental health support and counseling",
+            "icon": "heart.text.square.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://counseling.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2423",
+                "location": {
+                    "address": "3rd Floor, Student Health Services",
+                    "latitude": 35.7714,
+                    "longitude": -78.6733
+                }
+            }
+        },
+        {
+            "id": "healthypack",
+            "name": "HealthyPack Portal",
+            "description": "Access health records and immunizations",
+            "icon": "doc.text.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://healthypack.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "wellness-recreation",
+            "name": "Wellness & Recreation",
+            "description": "Carmichael Gym and fitness programs",
+            "icon": "figure.strengthtraining.traditional",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-3161",
+                "location": {
+                    "address": "2500 Cates Ave, Raleigh, NC 27695",
+                    "latitude": 35.7856,
+                    "longitude": -78.6817
+                }
+            }
+        },
+        {
+            "id": "wellrec-hours",
+            "name": "Wellness Facility Hours",
+            "description": "Carmichael Gym operating hours",
+            "icon": "clock.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/hours/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-fitness-classes",
+            "name": "Fitness Classes",
+            "description": "Group fitness class schedules",
+            "icon": "figure.run",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/fitness-classes/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-intramurals",
+            "name": "Intramural Sports",
+            "description": "Join intramural sports leagues",
+            "icon": "sportscourt.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/intramural-sports/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-personal-training",
+            "name": "Personal Training",
+            "description": "One-on-one fitness training",
+            "icon": "figure.strengthtraining.functional",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/personal-training/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-pool",
+            "name": "Aquatics & Pool",
+            "description": "Swimming pool and aquatics programs",
+            "icon": "figure.pool.swim",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/aquatics/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-outdoor",
+            "name": "Outdoor Adventures",
+            "description": "Outdoor recreation and trips",
+            "icon": "mountain.2.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/outdoor-adventures/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-club-sports",
+            "name": "Club Sports",
+            "description": "Competitive club sports teams",
+            "icon": "sportscourt",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/club-sports/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wellrec-memberships",
+            "name": "Wellness Memberships & Pricing",
+            "description": "Membership options and costs",
+            "icon": "creditcard.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellrec.dasa.ncsu.edu/memberships/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfpack-wellness",
+            "name": "Wolfpack Wellness",
+            "description": "Holistic wellness programs",
+            "icon": "leaf.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wellbeing.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "campus-police",
+            "name": "Campus Police",
+            "description": "Emergency services and safety",
+            "icon": "shield.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://police.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "911",
+                "email": "police_department@ncsu.edu",
+                "location": {
+                    "address": "2610 Wolf Village Way, Raleigh, NC 27607",
+                    "latitude": 35.7847,
+                    "longitude": -78.6821
+                }
+            }
+        },
+        {
+            "id": "police-nonemergency",
+            "name": "Police Non-Emergency Line",
+            "description": "Contact police for non-emergencies",
+            "icon": "phone.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "tel:9195153000"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-3000"
+            }
+        },
+        {
+            "id": "police-reports",
+            "name": "File a Police Report",
+            "description": "Submit an online police report",
+            "icon": "doc.text.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://police.ncsu.edu/report/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "police-alerts",
+            "name": "Crime Alerts",
+            "description": "View recent crime alerts",
+            "icon": "exclamationmark.triangle.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://police.ncsu.edu/crime-alerts/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wolfalert",
+            "name": "WolfAlert Information",
+            "description": "Emergency notification system",
+            "icon": "bell.badge.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://police.ncsu.edu/wolfalert/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "pack-ready",
+            "name": "Pack Ready",
+            "description": "Emergency preparedness resources",
+            "icon": "shield.checkered",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://emergency.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "safewalk",
+            "name": "SafeWalk",
+            "description": "Campus escort service",
+            "icon": "figure.walk",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://police.ncsu.edu/services/safewalk/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-4357"
+            }
+        },
+        {
+            "id": "concerning-behavior",
+            "name": "Report Concerning Behavior",
+            "description": "Submit a referral for student support",
+            "icon": "exclamationmark.bubble.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://cm.maxient.com/reportingform.php?NorthCarolinaStateUniv"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "career-center",
+            "name": "Career Development Center",
+            "description": "Career guidance and job search",
+            "icon": "briefcase.fill",
+            "category": "Career Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://careers.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2396",
+                "location": {
+                    "address": "2100 Pullen Hall",
+                    "latitude": 35.7844,
+                    "longitude": -78.6672
+                }
+            }
+        },
+        {
+            "id": "handshake",
+            "name": "Handshake",
+            "description": "Job and internship search platform",
+            "icon": "hand.raised.fill",
+            "category": "Career Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://ncsu.joinhandshake.com"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "career-fairs",
+            "name": "Career Fairs",
+            "description": "View upcoming career fair events",
+            "icon": "calendar.badge.clock",
+            "category": "Career Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://careers.ncsu.edu/students/explore-careers/career-fairs/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "getinvolved",
+            "name": "GetInvolved",
+            "description": "Student organizations portal",
+            "icon": "person.3.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://getinvolved.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "talley",
+            "name": "Talley Student Union",
+            "description": "Student center and activities",
+            "icon": "building.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentcenters.ncsu.edu/talley/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            },
+            "contactInfo": {
+                "location": {
+                    "address": "2610 Cates Ave, Raleigh, NC 27695",
+                    "latitude": 35.7714,
+                    "longitude": -78.6733
+                }
+            }
+        },
+        {
+            "id": "witherspoon",
+            "name": "Witherspoon Student Center",
+            "description": "Centennial Campus student center",
+            "icon": "building.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentcenters.ncsu.edu/witherspoon/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "facultyStaff"]
+            },
+            "contactInfo": {
+                "location": {
+                    "address": "2810 Katharine Stinson Dr, Raleigh, NC 27606",
+                    "latitude": 35.7683,
+                    "longitude": -78.6722
+                }
+            }
+        },
+        {
+            "id": "greek-life",
+            "name": "Greek Life",
+            "description": "Fraternity and sorority information",
+            "icon": "building.columns",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://greeklife.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "dasa",
+            "name": "Academic & Student Affairs (DASA)",
+            "description": "Division of academic and student support",
+            "icon": "person.fill.checkmark",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "advising",
+            "name": "Academic Advising",
+            "description": "Get advising support",
+            "icon": "person.crop.circle.badge.checkmark",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://advising.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "dro",
+            "name": "Disability Resources (DRO)",
+            "description": "Academic accommodations and support",
+            "icon": "accessibility.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://dro.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-7653",
+                "email": "disability-services@ncsu.edu"
+            }
+        },
+        {
+            "id": "international-services",
+            "name": "International Services",
+            "description": "Support for international students",
+            "icon": "globe",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://internationalservices.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "veterans-services",
+            "name": "Veterans Services",
+            "description": "Support for military and veterans",
+            "icon": "flag.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://veterans.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "athletics",
+            "name": "NC State Athletics",
+            "description": "Wolfpack sports and tickets",
+            "icon": "sportscourt.fill",
+            "category": "Athletics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://gopack.com"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "athletics-tickets",
+            "name": "Athletics Tickets",
+            "description": "Buy tickets to games and events",
+            "icon": "ticket.fill",
+            "category": "Athletics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://ev12.evenue.net/cgi-bin/ncommerce3/SEGetEventList?groupCode=FB&linkID=ncs&shopperContext=&caller=&appCode="
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "athletics-schedule",
+            "name": "Athletics Game Schedule",
+            "description": "View upcoming games and events",
+            "icon": "calendar",
+            "category": "Athletics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://gopack.com/calendar"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "athletics-gameday",
+            "name": "Game Day Information",
+            "description": "Parking, tailgating, and game day info",
+            "icon": "info.circle.fill",
+            "category": "Athletics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://gopack.com/sports/2016/6/10/ot-gameday-info.aspx"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "oit",
+            "name": "Office of IT (OIT)",
+            "description": "Technology services and support",
+            "icon": "desktopcomputer",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oit.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-HELP"
+            }
+        },
+        {
+            "id": "oit-help",
+            "name": "Get Tech Support",
+            "description": "IT help desk and support",
+            "icon": "lifepreserver.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://help.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "oit-software",
+            "name": "Software Downloads",
+            "description": "Free software for students",
+            "icon": "arrow.down.circle.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://software.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "oit-vcl",
+            "name": "Virtual Computing Lab",
+            "description": "Access software remotely",
+            "icon": "laptopcomputer",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://vcl.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "oit-unity",
+            "name": "Unity ID Management",
+            "description": "Manage your Unity ID and password",
+            "icon": "person.badge.key.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://identity.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "parent-programs",
+            "name": "Parent & Family Programs",
+            "description": "Resources for families",
+            "icon": "person.2.fill",
+            "category": "Parents & Family",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://parents.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["parent"]
+            }
+        },
+        {
+            "id": "family-weekend",
+            "name": "Family Weekend",
+            "description": "Annual family event information",
+            "icon": "calendar.badge.plus",
+            "category": "Parents & Family",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://parents.ncsu.edu/family-weekend/"
+            },
+            "visibility": {
+                "perspectives": ["parent"]
+            }
+        },
+        {
+            "id": "undergraduate-admissions",
+            "name": "Undergraduate Admissions",
+            "description": "Apply to NC State",
+            "icon": "graduationcap.fill",
+            "category": "Admissions",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://admissions.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "parent"]
+            }
+        },
+        {
+            "id": "campus-tours",
+            "name": "Campus Tours",
+            "description": "Schedule a campus visit",
+            "icon": "map.fill",
+            "category": "Admissions",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://admissions.ncsu.edu/explore/visit-campus/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "parent"]
+            }
+        },
+        {
+            "id": "annual-giving",
+            "name": "Annual Giving",
+            "description": "Support NC State",
+            "icon": "gift.fill",
+            "category": "Giving & Alumni",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://give.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "alumni-association",
+            "name": "Alumni Association",
+            "description": "Connect with NC State alumni",
+            "icon": "person.3.sequence.fill",
+            "category": "Giving & Alumni",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://alumni.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "campus-map",
+            "name": "Campus Map",
+            "description": "Interactive campus map",
+            "icon": "map.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://maps.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "student-email",
+            "name": "Student Email (Gmail)",
+            "description": "Access your NC State email",
+            "icon": "envelope.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://gmail.com"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "employee-email",
+            "name": "Employee Email (Outlook)",
+            "description": "Access your NC State email",
+            "icon": "envelope.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://outlook.office.com"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            }
+        },
+        {
+            "id": "google-drive",
+            "name": "Google Drive",
+            "description": "Cloud storage for students",
+            "icon": "externaldrive.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://drive.google.com"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "zoom",
+            "name": "Zoom",
+            "description": "Video conferencing",
+            "icon": "video.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://ncsu.zoom.us"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "print-services",
+            "name": "Print Services",
+            "description": "Campus printing and copying",
+            "icon": "printer.fill",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oit.ncsu.edu/printing/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wifi-setup",
+            "name": "Wi-Fi Setup",
+            "description": "Connect to campus Wi-Fi",
+            "icon": "wifi",
+            "category": "Technology & IT",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oit.ncsu.edu/wifi/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "bookstore",
+            "name": "NC State Bookstore",
+            "description": "Textbooks, supplies, and apparel",
+            "icon": "bag.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.bkstr.com/ncstatestore"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "tutoring-center",
+            "name": "Tutorial Center",
+            "description": "Free peer tutoring services",
+            "icon": "person.2.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://tutorial.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-3163",
+                "location": {
+                    "address": "D.H. Hill Jr. Library, 2nd Floor",
+                    "latitude": 35.7868,
+                    "longitude": -78.6692
+                }
+            }
+        },
+        {
+            "id": "writing-speaking-center",
+            "name": "Writing & Speaking Center",
+            "description": "Get help with papers and presentations",
+            "icon": "text.bubble.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://tutorial.dasa.ncsu.edu/writing-speaking-tutorial-services/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "graduate-school",
+            "name": "Graduate School",
+            "description": "Graduate programs and resources",
+            "icon": "graduationcap.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://grad.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "registrar",
+            "name": "Office of the Registrar",
+            "description": "Transcripts, enrollment verification",
+            "icon": "doc.text.fill",
+            "category": "Academics",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/your-records/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2572",
+                "email": "registration@ncsu.edu"
+            }
+        },
+        {
+            "id": "student-conduct",
+            "name": "Student Conduct",
+            "description": "Code of conduct and policies",
+            "icon": "doc.badge.gearshape.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentconduct.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "multicultural-affairs",
+            "name": "Multicultural Student Affairs",
+            "description": "Diversity and inclusion programs",
+            "icon": "person.3.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oied.ncsu.edu/multicultural-student-affairs/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "lgbtq-center",
+            "name": "GLBT Center",
+            "description": "LGBTQ+ resources and support",
+            "icon": "heart.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oied.ncsu.edu/glbt/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "womens-center",
+            "name": "Women's Center",
+            "description": "Resources and programs for women",
+            "icon": "person.fill",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oied.ncsu.edu/womens-center/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "student-government",
+            "name": "Student Government",
+            "description": "Student leadership and advocacy",
+            "icon": "building.columns.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentgovernment.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "technician",
+            "name": "Technician Newspaper",
+            "description": "Student-run campus newspaper",
+            "icon": "newspaper.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.technicianonline.com"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "wknc",
+            "name": "WKNC 88.1 FM",
+            "description": "Student-run radio station",
+            "icon": "radio.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://wknc.org"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "arts-center",
+            "name": "Arts NC State",
+            "description": "Campus arts and cultural events",
+            "icon": "theatermasks.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://arts.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "student-legal-services",
+            "name": "Student Legal Services",
+            "description": "Free legal advice for students",
+            "icon": "scale.3d",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentlegal.dasa.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-7091"
+            }
+        },
+        {
+            "id": "pharmacy",
+            "name": "Student Health Pharmacy",
+            "description": "On-campus pharmacy services",
+            "icon": "pills.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studenthealth.ncsu.edu/pharmacy/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            },
+            "contactInfo": {
+                "phone": "919-515-5040"
+            }
+        },
+        {
+            "id": "student-insurance",
+            "name": "Student Health Insurance",
+            "description": "Health insurance information",
+            "icon": "cross.case.fill",
+            "category": "Health & Wellness",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studenthealth.ncsu.edu/insurance/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "parent"]
+            }
+        },
+        {
+            "id": "pack-essentials",
+            "name": "Pack Essentials",
+            "description": "Emergency food and supplies",
+            "icon": "basket.fill",
+            "category": "Student Life",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://dasa.ncsu.edu/pack-essentials/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "student-emergency-fund",
+            "name": "Student Emergency Fund",
+            "description": "Financial assistance for emergencies",
+            "icon": "banknote.fill",
+            "category": "Financial Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://dasa.ncsu.edu/student-assistance/student-emergency-fund/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "student-jobs",
+            "name": "Student Employment",
+            "description": "On-campus job opportunities",
+            "icon": "briefcase.fill",
+            "category": "Career Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://studentservices.ncsu.edu/your-money/financial-aid/types/employment/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "co-op",
+            "name": "Cooperative Education",
+            "description": "Co-op and internship programs",
+            "icon": "building.2.fill",
+            "category": "Career Services",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://careers.ncsu.edu/students/explore-careers/cooperative-education/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        },
+        {
+            "id": "event-calendar",
+            "name": "Campus Events Calendar",
+            "description": "Upcoming campus events",
+            "icon": "calendar.badge.clock",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://calendar.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "news",
+            "name": "NC State News",
+            "description": "University news and announcements",
+            "icon": "newspaper.fill",
+            "category": "Essentials",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://news.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+            }
+        },
+        {
+            "id": "faculty-staff-resources",
+            "name": "Faculty & Staff Resources",
+            "description": "Employee services and information",
+            "icon": "person.badge.key.fill",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://www.ncsu.edu/faculty-staff/"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            }
+        },
+        {
+            "id": "hr",
+            "name": "Human Resources",
+            "description": "Employee benefits and services",
+            "icon": "person.text.rectangle.fill",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://hr.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            },
+            "contactInfo": {
+                "phone": "919-515-2135",
+                "email": "hrservices@ncsu.edu"
+            }
+        },
+        {
+            "id": "employee-self-service",
+            "name": "Employee Self Service",
+            "description": "Manage payroll and benefits",
+            "icon": "gear.badge.checkmark",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://mypack.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            }
+        },
+        {
+            "id": "faculty-senate",
+            "name": "Faculty Senate",
+            "description": "Faculty governance body",
+            "icon": "building.columns.fill",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://facultysenate.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            }
+        },
+        {
+            "id": "teaching-resources",
+            "name": "Teaching Resources",
+            "description": "Instructional support and development",
+            "icon": "person.crop.rectangle.stack.fill",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://delta.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["facultyStaff"]
+            }
+        },
+        {
+            "id": "research",
+            "name": "Research & Innovation",
+            "description": "Research opportunities and funding",
+            "icon": "flask.fill",
+            "category": "Faculty & Staff",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://research.ncsu.edu"
+            },
+            "visibility": {
+                "perspectives": ["graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "graduate-admissions",
+            "name": "Graduate Admissions",
+            "description": "Apply to graduate programs",
+            "icon": "graduationcap.fill",
+            "category": "Admissions",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://grad.ncsu.edu/admissions/"
+            },
+            "visibility": {
+                "perspectives": ["guest"]
+            }
+        },
+        {
+            "id": "visitor-parking",
+            "name": "Visitor Parking",
+            "description": "Parking information for visitors",
+            "icon": "car.fill",
+            "category": "Transportation",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://transportation.ncsu.edu/parking/visitor/"
+            },
+            "visibility": {
+                "perspectives": ["guest", "parent"]
+            }
+        },
+        {
+            "id": "title-ix",
+            "name": "Title IX Resources",
+            "description": "Report discrimination or harassment",
+            "icon": "exclamationmark.shield.fill",
+            "category": "Safety & Security",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://oied.ncsu.edu/equity/title-ix/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate", "facultyStaff"]
+            }
+        },
+        {
+            "id": "student-ombuds",
+            "name": "Student Ombuds",
+            "description": "Confidential conflict resolution",
+            "icon": "person.fill.questionmark",
+            "category": "Academic and Student Affairs",
+            "type": "externalLink",
+            "destination": {
+                "url": "https://provost.ncsu.edu/student-ombuds/"
+            },
+            "visibility": {
+                "perspectives": ["student", "graduate"]
+            }
+        }
+    ],
+    "lastUpdated": "2025-11-24T12:00:00Z"
+}
