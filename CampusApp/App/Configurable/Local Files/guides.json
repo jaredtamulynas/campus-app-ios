@@ -1,0 +1,681 @@
+{
+  "guides": [
+    {
+      "id": "wolfpack-welcome-week",
+      "title": "Wolfpack Welcome Week",
+      "department": "New Student Programs",
+      "description": "Your complete guide to Welcome Week! Find events, locations, must-do tasks, and everything you need to start your NC State journey.",
+      "headerImageUrl": "https://live.staticflickr.com/65535/52520075268_8e6b3e0b6e_k.jpg",
+      "icon": "party.popper.fill",
+      "color": "red",
+      "featured": true,
+      "alert": {
+        "type": "new",
+        "message": "Starts Aug 14!"
+      },
+      "visibility": {
+        "perspectives": ["student", "graduate"]
+      },
+      "todos": [
+        {
+          "id": "todo-1",
+          "title": "Pick up your Wolfpack One Card",
+          "description": "Your student ID is required for dining, building access, and events",
+          "dueDate": "Aug 14",
+          "priority": "high",
+          "category": "Before Arrival",
+          "linkedUrl": "https://onecard.ncsu.edu"
+        },
+        {
+          "id": "todo-2",
+          "title": "Download the TransLoc app",
+          "description": "Track Wolfline buses in real-time to get around campus",
+          "priority": "medium",
+          "category": "Before Arrival"
+        },
+        {
+          "id": "todo-3",
+          "title": "Complete online orientation modules",
+          "description": "Required modules must be done before Welcome Week",
+          "dueDate": "Aug 13",
+          "priority": "high",
+          "category": "Before Arrival",
+          "linkedUrl": "https://newstudents.ncsu.edu"
+        },
+        {
+          "id": "todo-4",
+          "title": "Attend Opening Ceremony",
+          "description": "Welcome from Chancellor and student leaders at Reynolds Coliseum",
+          "dueDate": "Aug 14, 10:00 AM",
+          "priority": "high",
+          "category": "First Day"
+        },
+        {
+          "id": "todo-5",
+          "title": "Meet with your Academic Advisor",
+          "description": "Confirm your class schedule and ask questions",
+          "dueDate": "Aug 15-16",
+          "priority": "medium",
+          "category": "First Week"
+        },
+        {
+          "id": "todo-6",
+          "title": "Attend your Floor Meeting",
+          "description": "Meet your RA and hall mates, learn about dorm policies",
+          "dueDate": "Aug 14, 8:00 PM",
+          "priority": "medium",
+          "category": "First Day"
+        }
+      ],
+      "events": [
+        {
+          "id": "event-1",
+          "title": "Opening Ceremony",
+          "description": "Official welcome from university leadership, student speakers, and the Wolfpack spirit squad!",
+          "category": "orientation",
+          "startDate": "2025-08-14T10:00:00",
+          "endDate": "2025-08-14T11:30:00",
+          "location": "Reynolds Coliseum",
+          "locationId": "loc-reynolds",
+          "isRequired": true
+        },
+        {
+          "id": "event-2",
+          "title": "Campus Resource Fair",
+          "description": "Meet student organizations, campus services, and find ways to get involved",
+          "category": "orientation",
+          "startDate": "2025-08-14T12:00:00",
+          "endDate": "2025-08-14T16:00:00",
+          "location": "Talley Student Union",
+          "locationId": "loc-talley"
+        },
+        {
+          "id": "event-3",
+          "title": "Welcome Dinner",
+          "description": "Free dinner for all new students. Meet your classmates!",
+          "category": "dining",
+          "startDate": "2025-08-14T18:00:00",
+          "endDate": "2025-08-14T20:00:00",
+          "location": "Fountain Dining Hall",
+          "locationId": "loc-fountain"
+        },
+        {
+          "id": "event-4",
+          "title": "Academic Success Workshop",
+          "description": "Study strategies, time management, and tips from successful students",
+          "category": "academic",
+          "startDate": "2025-08-15T14:00:00",
+          "endDate": "2025-08-15T15:30:00",
+          "location": "D.H. Hill Jr. Library",
+          "locationId": "loc-hill"
+        },
+        {
+          "id": "event-5",
+          "title": "Student Org Showcase",
+          "description": "Discover 600+ student organizations and find your community",
+          "category": "club",
+          "startDate": "2025-08-15T13:00:00",
+          "endDate": "2025-08-15T17:00:00",
+          "location": "Talley Student Union Ballroom",
+          "locationId": "loc-talley"
+        },
+        {
+          "id": "event-6",
+          "title": "Rec Center Open House",
+          "description": "Tour the gym, try group fitness, meet the rec staff",
+          "category": "social",
+          "startDate": "2025-08-15T18:00:00",
+          "endDate": "2025-08-15T20:00:00",
+          "location": "Carmichael Gym",
+          "locationId": "loc-carmichael"
+        },
+        {
+          "id": "event-7",
+          "title": "Wolfpack Traditions Night",
+          "description": "Learn about NC State traditions at the iconic Memorial Belltower",
+          "category": "social",
+          "startDate": "2025-08-16T19:00:00",
+          "endDate": "2025-08-16T21:00:00",
+          "location": "Memorial Belltower",
+          "locationId": "loc-belltower"
+        },
+        {
+          "id": "event-8",
+          "title": "First Home Football Game",
+          "description": "NC State vs. Western Carolina - Student tickets are FREE!",
+          "category": "sports",
+          "startDate": "2025-08-17T15:30:00",
+          "location": "Carter-Finley Stadium",
+          "locationId": "loc-carter-finley"
+        }
+      ],
+      "locations": [
+        {
+          "id": "loc-reynolds",
+          "name": "Reynolds Coliseum",
+          "description": "Historic arena, home of Opening Ceremony",
+          "latitude": 35.7870,
+          "longitude": -78.6698,
+          "address": "2411 Dunn Ave, Raleigh, NC 27607",
+          "category": "venue",
+          "icon": "building.columns.fill"
+        },
+        {
+          "id": "loc-talley",
+          "name": "Talley Student Union",
+          "description": "Campus hub with dining, meeting rooms, and student services",
+          "latitude": 35.7730,
+          "longitude": -78.6741,
+          "address": "2610 Cates Ave, Raleigh, NC 27606",
+          "category": "building",
+          "icon": "building.2.fill"
+        },
+        {
+          "id": "loc-fountain",
+          "name": "Fountain Dining Hall",
+          "description": "All-you-care-to-eat dining hall",
+          "latitude": 35.7865,
+          "longitude": -78.6650,
+          "address": "110 Lampe Dr, Raleigh, NC 27607",
+          "category": "dining",
+          "icon": "fork.knife"
+        },
+        {
+          "id": "loc-hill",
+          "name": "D.H. Hill Jr. Library",
+          "description": "Main campus library with study spaces and tutoring",
+          "latitude": 35.7868,
+          "longitude": -78.6704,
+          "address": "2 Broughton Dr, Raleigh, NC 27695",
+          "category": "library",
+          "icon": "books.vertical.fill"
+        },
+        {
+          "id": "loc-carmichael",
+          "name": "Carmichael Gym",
+          "description": "Recreation center with gym, pool, and fitness classes",
+          "latitude": 35.7877,
+          "longitude": -78.6737,
+          "address": "2820 Cates Ave, Raleigh, NC 27606",
+          "category": "recreation",
+          "icon": "figure.run"
+        },
+        {
+          "id": "loc-belltower",
+          "name": "Memorial Belltower",
+          "description": "Iconic NC State landmark and gathering spot",
+          "latitude": 35.7860,
+          "longitude": -78.6633,
+          "address": "2701 Hillsborough St, Raleigh, NC 27607",
+          "category": "venue",
+          "icon": "bell.fill"
+        },
+        {
+          "id": "loc-carter-finley",
+          "name": "Carter-Finley Stadium",
+          "description": "Home of Wolfpack Football - 57,000 seats!",
+          "latitude": 35.8009,
+          "longitude": -78.7180,
+          "address": "4600 Trinity Rd, Raleigh, NC 27607",
+          "category": "venue",
+          "icon": "sportscourt.fill"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "faq-1",
+          "question": "What should I wear to Opening Ceremony?",
+          "answer": "Wear red and white to show your Wolfpack spirit! Casual attire is fine. The event is indoors and air-conditioned.",
+          "category": "Events"
+        },
+        {
+          "id": "faq-2",
+          "question": "How do I get to events without a car?",
+          "answer": "The Wolfline bus system is free for students! Download the TransLoc app to track buses in real-time. Most Welcome Week events are on main campus and walkable.",
+          "category": "Transportation"
+        },
+        {
+          "id": "faq-3",
+          "question": "Are meals included during Welcome Week?",
+          "answer": "Several free meals are provided, including the Welcome Dinner. If you have a meal plan, your dining halls are open. Check event descriptions for free food!",
+          "category": "Dining"
+        },
+        {
+          "id": "faq-4",
+          "question": "What if I miss an event?",
+          "answer": "Most events are optional except Opening Ceremony. Don't worry if you miss something - there are lots of ways to get involved throughout the semester!",
+          "category": "Events"
+        },
+        {
+          "id": "faq-5",
+          "question": "Where can I park during Welcome Week?",
+          "answer": "Visitor parking is available in the Coliseum Deck and Partner's Way Deck. Students living on campus should use their assigned lot. Consider taking the Wolfline!",
+          "category": "Transportation"
+        }
+      ],
+      "contacts": [
+        {
+          "id": "contact-1",
+          "name": "New Student Programs",
+          "role": "Welcome Week Coordinators",
+          "phone": "919-515-1234",
+          "email": "newstudents@ncsu.edu"
+        },
+        {
+          "id": "contact-2",
+          "name": "Campus Police (Non-Emergency)",
+          "role": "Safety & Assistance",
+          "phone": "919-515-3000",
+          "email": "police@ncsu.edu"
+        },
+        {
+          "id": "contact-3",
+          "name": "University Housing",
+          "role": "Residence Hall Questions",
+          "phone": "919-515-2440",
+          "email": "housing@ncsu.edu"
+        }
+      ],
+      "links": [
+        {
+          "id": "link-1",
+          "title": "Welcome Week Full Schedule",
+          "url": "https://newstudents.ncsu.edu/welcome-week",
+          "icon": "calendar",
+          "description": "Complete day-by-day schedule"
+        },
+        {
+          "id": "link-2",
+          "title": "Campus Map",
+          "url": "https://maps.ncsu.edu",
+          "icon": "map.fill",
+          "description": "Interactive campus map"
+        },
+        {
+          "id": "link-3",
+          "title": "Wolfline Bus Tracker",
+          "url": "https://ncsu.transloc.com",
+          "icon": "bus.fill",
+          "description": "Real-time bus tracking"
+        },
+        {
+          "id": "link-4",
+          "title": "Dining Menus",
+          "url": "https://dining.ncsu.edu/locations",
+          "icon": "fork.knife",
+          "description": "See what's being served today"
+        }
+      ],
+      "updates": [
+        {
+          "id": "update-1",
+          "title": "Opening Ceremony Location Confirmed",
+          "message": "Opening Ceremony will be held at Reynolds Coliseum. Doors open at 9:30 AM!",
+          "timestamp": "2025-08-12T10:00:00",
+          "type": "info"
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "title": "What to Bring",
+          "order": 1,
+          "content": "Pack light for Welcome Week events! Essentials: your phone, student ID (or confirmation), water bottle, and comfortable walking shoes. Most venues are air-conditioned, but outdoor events can be hot!"
+        },
+        {
+          "id": "section-2",
+          "title": "Getting Around Campus",
+          "order": 2,
+          "content": "NC State's campus is very walkable, but the Wolfline bus system is free and convenient. Download TransLoc to track buses. Bike racks are available at most buildings."
+        }
+      ]
+    },
+    {
+      "id": "housing-move-in",
+      "title": "Housing & Move-In",
+      "department": "University Housing",
+      "description": "Everything you need for a smooth move-in experience. Check off tasks, find your hall, and get settled in your new home!",
+      "headerImageUrl": "https://live.staticflickr.com/65535/52519826344_c7b0e7b0e7_k.jpg",
+      "icon": "house.fill",
+      "color": "green",
+      "featured": true,
+      "alert": {
+        "type": "action",
+        "message": "Check your move-in time!"
+      },
+      "visibility": {
+        "perspectives": ["student", "graduate"]
+      },
+      "todos": [
+        {
+          "id": "housing-todo-1",
+          "title": "Confirm your move-in time slot",
+          "description": "Check your email for your assigned move-in date and time",
+          "dueDate": "Aug 10",
+          "priority": "high",
+          "category": "Before Move-In",
+          "linkedUrl": "https://housing.ncsu.edu/move-in"
+        },
+        {
+          "id": "housing-todo-2",
+          "title": "Review what to bring (and what NOT to bring)",
+          "description": "Check the packing list to avoid bringing prohibited items",
+          "priority": "medium",
+          "category": "Before Move-In",
+          "linkedUrl": "https://housing.ncsu.edu/packing"
+        },
+        {
+          "id": "housing-todo-3",
+          "title": "Complete roommate agreement",
+          "description": "Work with your roommate to set expectations",
+          "dueDate": "First week",
+          "priority": "medium",
+          "category": "After Move-In"
+        },
+        {
+          "id": "housing-todo-4",
+          "title": "Attend your floor meeting",
+          "description": "Meet your RA and neighbors, learn hall policies",
+          "dueDate": "Move-in evening",
+          "priority": "high",
+          "category": "Move-In Day"
+        },
+        {
+          "id": "housing-todo-5",
+          "title": "Set up your meal plan",
+          "description": "Make sure your dining plan is active",
+          "priority": "high",
+          "category": "Before Move-In",
+          "linkedUrl": "https://dining.ncsu.edu/meal-plans"
+        }
+      ],
+      "events": [
+        {
+          "id": "housing-event-1",
+          "title": "Early Move-In (Special Populations)",
+          "description": "Athletes, international students, and approved early arrivals",
+          "category": "orientation",
+          "startDate": "2025-08-12T08:00:00",
+          "endDate": "2025-08-12T17:00:00",
+          "location": "Your Assigned Residence Hall"
+        },
+        {
+          "id": "housing-event-2",
+          "title": "General Move-In Day 1",
+          "description": "Last names A-L move in today",
+          "category": "orientation",
+          "startDate": "2025-08-13T08:00:00",
+          "endDate": "2025-08-13T17:00:00",
+          "location": "Your Assigned Residence Hall",
+          "isRequired": true
+        },
+        {
+          "id": "housing-event-3",
+          "title": "General Move-In Day 2",
+          "description": "Last names M-Z move in today",
+          "category": "orientation",
+          "startDate": "2025-08-14T08:00:00",
+          "endDate": "2025-08-14T12:00:00",
+          "location": "Your Assigned Residence Hall",
+          "isRequired": true
+        }
+      ],
+      "locations": [
+        {
+          "id": "housing-loc-1",
+          "name": "Sullivan Hall",
+          "description": "First-year residence hall on East Campus",
+          "latitude": 35.7873,
+          "longitude": -78.6642,
+          "address": "201 Dan Allen Dr, Raleigh, NC 27607",
+          "category": "dorm"
+        },
+        {
+          "id": "housing-loc-2",
+          "name": "Wolf Village",
+          "description": "Apartment-style living for upperclassmen",
+          "latitude": 35.7712,
+          "longitude": -78.6756,
+          "address": "2710 Wolf Village Way, Raleigh, NC 27607",
+          "category": "dorm"
+        },
+        {
+          "id": "housing-loc-3",
+          "name": "Housing Office",
+          "description": "Main housing office for questions and key pickup",
+          "latitude": 35.7845,
+          "longitude": -78.6728,
+          "address": "Pullen Hall, Raleigh, NC 27695",
+          "category": "building"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "housing-faq-1",
+          "question": "What size sheets do I need?",
+          "answer": "All residence hall beds are Twin XL (extra long). Standard twin sheets will be too short!",
+          "category": "Packing"
+        },
+        {
+          "id": "housing-faq-2",
+          "question": "Can I bring a microwave or mini-fridge?",
+          "answer": "Micro-fridges are provided in most halls. Personal microwaves and large fridges are not allowed. Check your specific hall's policies.",
+          "category": "Packing"
+        },
+        {
+          "id": "housing-faq-3",
+          "question": "Where do I pick up my room key?",
+          "answer": "Check in at your residence hall's front desk. Bring your student ID or confirmation email.",
+          "category": "Move-In"
+        },
+        {
+          "id": "housing-faq-4",
+          "question": "Can my family help me move in?",
+          "answer": "Yes! Each student can bring helpers. Move-in volunteers will be available with carts. Families should plan to leave by evening for floor meetings.",
+          "category": "Move-In"
+        }
+      ],
+      "contacts": [
+        {
+          "id": "housing-contact-1",
+          "name": "University Housing",
+          "role": "Main Office",
+          "phone": "919-515-2440",
+          "email": "housing@ncsu.edu"
+        },
+        {
+          "id": "housing-contact-2",
+          "name": "Housing Maintenance",
+          "role": "Repairs & Facilities",
+          "phone": "919-515-2891",
+          "email": "housing-maintenance@ncsu.edu"
+        }
+      ],
+      "links": [
+        {
+          "id": "housing-link-1",
+          "title": "Housing Portal",
+          "url": "https://housing.ncsu.edu",
+          "icon": "house.fill",
+          "description": "Room assignments, contracts, and more"
+        },
+        {
+          "id": "housing-link-2",
+          "title": "Packing List",
+          "url": "https://housing.ncsu.edu/packing",
+          "icon": "bag.fill",
+          "description": "What to bring and what to leave"
+        },
+        {
+          "id": "housing-link-3",
+          "title": "Virtual Hall Tours",
+          "url": "https://housing.ncsu.edu/tours",
+          "icon": "video.fill",
+          "description": "Preview your residence hall"
+        }
+      ],
+      "sections": [
+        {
+          "id": "housing-section-1",
+          "title": "What to Bring",
+          "order": 1,
+          "content": "Essentials: Twin XL bedding, towels, toiletries, desk lamp, power strip (with surge protector), hangers, laundry basket, and school supplies. Don't forget your student ID!"
+        },
+        {
+          "id": "housing-section-2",
+          "title": "What NOT to Bring",
+          "order": 2,
+          "content": "Prohibited items: candles, incense, hot plates, space heaters, halogen lamps, pets (except fish in small tanks), and weapons of any kind. Large furniture is also not allowed."
+        },
+        {
+          "id": "housing-section-3",
+          "title": "Move-In Day Tips",
+          "order": 3,
+          "content": "Arrive during your assigned time slot. Park in designated move-in zones (temporary parking only). Use the move-in carts and volunteers! Get your key first, then unload."
+        }
+      ]
+    },
+    {
+      "id": "campus-safety",
+      "title": "Campus Safety",
+      "department": "NC State Police",
+      "description": "Stay safe on campus. Emergency contacts, safety resources, and tips for navigating campus day and night.",
+      "headerImageUrl": "https://live.staticflickr.com/65535/52520075268_8e6b3e0b6e_k.jpg",
+      "icon": "shield.fill",
+      "color": "blue",
+      "alert": {
+        "type": "info",
+        "message": "Essential Info"
+      },
+      "visibility": {
+        "perspectives": ["guest", "student", "graduate", "parent", "facultyStaff"]
+      },
+      "todos": [
+        {
+          "id": "safety-todo-1",
+          "title": "Save Campus Police number in your phone",
+          "description": "919-515-3000 for non-emergencies, 911 for emergencies",
+          "priority": "high",
+          "category": "First Week"
+        },
+        {
+          "id": "safety-todo-2",
+          "title": "Download the WolfAlert app",
+          "description": "Get emergency notifications and access safety features",
+          "priority": "high",
+          "category": "First Week",
+          "linkedUrl": "https://apps.apple.com/us/app/wolfalert/id123456789"
+        },
+        {
+          "id": "safety-todo-3",
+          "title": "Register for Emergency Notifications",
+          "description": "Make sure your contact info is current in MyPack Portal",
+          "priority": "medium",
+          "category": "First Week",
+          "linkedUrl": "https://mypack.ncsu.edu"
+        }
+      ],
+      "locations": [
+        {
+          "id": "safety-loc-1",
+          "name": "Campus Police Headquarters",
+          "description": "24/7 police station - stop by anytime",
+          "latitude": 35.7847,
+          "longitude": -78.6821,
+          "address": "2610 Wolf Village Way, Raleigh, NC 27607",
+          "category": "building",
+          "icon": "shield.fill"
+        },
+        {
+          "id": "safety-loc-2",
+          "name": "Student Health Center",
+          "description": "Medical services for students",
+          "latitude": 35.7855,
+          "longitude": -78.6638,
+          "address": "2815 Cates Ave, Raleigh, NC 27606",
+          "category": "building",
+          "icon": "cross.fill"
+        }
+      ],
+      "faqs": [
+        {
+          "id": "safety-faq-1",
+          "question": "What should I do in an emergency?",
+          "answer": "Call 911 for life-threatening emergencies. For non-emergencies on campus, call Campus Police at 919-515-3000. Blue light emergency phones are located throughout campus.",
+          "category": "Emergencies"
+        },
+        {
+          "id": "safety-faq-2",
+          "question": "Is there a safe ride service at night?",
+          "answer": "Yes! The Wolfpack Patrol offers free safety escorts on campus. Call 919-515-3000 to request one. The service runs from dusk until dawn.",
+          "category": "Transportation"
+        },
+        {
+          "id": "safety-faq-3",
+          "question": "Where are the blue light phones?",
+          "answer": "Blue light emergency phones are located throughout campus, especially in parking lots and along walkways. Press the button to connect directly to Campus Police.",
+          "category": "Emergencies"
+        }
+      ],
+      "contacts": [
+        {
+          "id": "safety-contact-1",
+          "name": "Campus Police (Emergency)",
+          "role": "Emergency Line",
+          "phone": "911"
+        },
+        {
+          "id": "safety-contact-2",
+          "name": "Campus Police (Non-Emergency)",
+          "role": "General Assistance",
+          "phone": "919-515-3000",
+          "email": "police@ncsu.edu"
+        },
+        {
+          "id": "safety-contact-3",
+          "name": "Counseling Center",
+          "role": "Mental Health Support",
+          "phone": "919-515-2423",
+          "email": "counseling_center@ncsu.edu"
+        }
+      ],
+      "links": [
+        {
+          "id": "safety-link-1",
+          "title": "Campus Police Website",
+          "url": "https://police.ncsu.edu",
+          "icon": "shield.fill"
+        },
+        {
+          "id": "safety-link-2",
+          "title": "WolfAlert System",
+          "url": "https://emergency.ncsu.edu",
+          "icon": "bell.fill",
+          "description": "Emergency notification system"
+        },
+        {
+          "id": "safety-link-3",
+          "title": "Report a Concern",
+          "url": "https://report.ncsu.edu",
+          "icon": "exclamationmark.bubble.fill",
+          "description": "Anonymous reporting"
+        }
+      ],
+      "sections": [
+        {
+          "id": "safety-section-1",
+          "title": "Walking Alone at Night",
+          "order": 1,
+          "content": "Stay on well-lit paths. Use the buddy system when possible. Keep your phone charged. Know where blue light phones are located. Request a Wolfpack Patrol escort for free."
+        },
+        {
+          "id": "safety-section-2",
+          "title": "Protect Your Belongings",
+          "order": 2,
+          "content": "Never leave laptops or bags unattended. Lock your dorm room even when you're home. Register your bike with Campus Police. Don't leave valuables visible in your car."
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-08-01T12:00:00Z"
+}

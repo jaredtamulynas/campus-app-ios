@@ -1,62 +1,133 @@
+############################################
+# macOS
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+
+############################################
 # Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## User settings
+############################################
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 xcuserdata/
-
-## Obj-C/Swift specific
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.xcuserstate
 *.hmap
-
-## App packaging
 *.ipa
 *.dSYM.zip
 *.dSYM
+timeline.xctimeline
+*.swp
+*.lock
 
-## Playgrounds
+
+############################################
+# Swift Package Manager
+############################################
+.build/
+Package.resolved
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/configuration/
+
+
+############################################
+# CocoaPods
+############################################
+Pods/
+Podfile.lock
+
+
+############################################
+# Carthage
+############################################
+Carthage/Build/
+
+
+############################################
+# Firebase
+############################################
+# Firebase config files (do NOT commit secrets)
+GoogleService-Info.plist
+
+# Firebase local emulator data
+firebase-debug.log
+.firestore/
+.storage/
+.emulators/
+
+
+############################################
+# Fastlane
+############################################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/tmp/
+
+
+############################################
+# Code Signing / Certificates
+############################################
+*.cer
+*.p12
+*.mobileprovision
+*.entitlements
+
+
+############################################
+# Logs & Debugging
+############################################
+*.log
+*.tmp
+*.pid
+*.seed
+*.out
+
+
+############################################
+# Playgrounds
+############################################
 timeline.xctimeline
 playground.xcworkspace
 
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
 
-.build/
+############################################
+# Test / Coverage
+############################################
+*.gcno
+*.gcda
+*.gcov
+Coverage/
+coverage/
 
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+############################################
+# IDEs / Editors
+############################################
+.idea/
+.vscode/
+*.iml
 
-Carthage/Build/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+############################################
+# Misc
+############################################
+.env
+.env.*
+*.bak
+*.orig
+CLAUDE.md

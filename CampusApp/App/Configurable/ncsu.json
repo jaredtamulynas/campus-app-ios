@@ -1,0 +1,94 @@
+{
+  "id": "ncsu",
+  "displayName": "NC State University",
+  "bundleDisplayName": "Welcome Pack",
+  "secondaryColor": "#FFFFFF",
+  "logoURL": "https://oncampus.ncsu.edu/logo.png",
+  "welcomeMessage": "Welcome to the Pack!",
+  "description": "Your one-stop app for everything Wolfpack — maps, dining, events, and more.",
+  "appStoreURL": "https://apps.apple.com/app/ncstate-welcome-pack/id123456789",
+  "weatherURL": "https://wake.weatherstem.com/ncstate",
+  "mediaLinks": [
+    {
+      "id": "wknc",
+      "title": "WKNC 88.1",
+      "subtitle": "Student Radio",
+      "url": "https://wknc.org",
+      "color": "red",
+      "icon": "radio.fill",
+      "streamURL": "http://152.14.0.12:9000/stream/1/"
+    },
+    {
+      "id": "wolfbytes-tv",
+      "title": "Wolfbytes TV",
+      "subtitle": "Campus Television",
+      "url": "https://wolfbytes.ncsu.edu",
+      "color": "blue",
+      "icon": "play.tv.fill",
+      "streamURL": "http://152.14.0.22:8080/0.m3u8"
+    },
+    {
+      "id": "technician",
+      "title": "Technician",
+      "subtitle": "Student News",
+      "url": "https://technicianonline.com",
+      "color": "orange",
+      "icon": "newspaper.fill",
+      "streamURL": null
+    },
+    {
+      "id": "podcasts",
+      "title": "Podcasts",
+      "subtitle": "NC State Shows",
+      "url": "https://news.ncsu.edu/podcasts",
+      "color": "purple",
+      "icon": "waveform",
+      "streamURL": null
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "x",
+      "title": "X",
+      "url": "https://x.com/ncstate",
+      "assetName": "xtwitter",
+      "color": "gray"
+    },
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "url": "https://instagram.com/ncstate",
+      "assetName": "instagram",
+      "color": "pink"
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "url": "https://youtube.com/ncstate",
+      "assetName": "youtube",
+      "color": "red"
+    },
+    {
+      "id": "linkedin",
+      "title": "LinkedIn",
+      "url": "https://linkedin.com/school/ncstate",
+      "assetName": "linkedin",
+      "color": "blue"
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook",
+      "url": "https://facebook.com/ncstate",
+      "assetName": "facebook",
+      "color": "indigo"
+    }
+  ],
+  "mapCenter": {
+    "latitude": 35.7851,
+    "longitude": -78.6813
+  },
+  "mapZoom": {
+    "latitudeDelta": 0.03,
+    "longitudeDelta": 0.03
+  }
+}

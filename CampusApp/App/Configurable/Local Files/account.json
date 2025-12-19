@@ -1,0 +1,55 @@
+{
+    "sections": [
+        {
+            "id": "about-support",
+            "title": "About & Support",
+            "items": [
+                {
+                    "id": "website",
+                    "title": "About Welcome Pack",
+                    "subtitle": "Visit our website",
+                    "icon": "safari.fill",
+                    "iconColor": "blue",
+                    "type": "externalLink",
+                    "destination": {
+                        "url": "https://oncampus.ncsu.edu"
+                    }
+                },
+                {
+                    "id": "privacy",
+                    "title": "Privacy Policy",
+                    "subtitle": "How we protect your data",
+                    "icon": "hand.raised.fill",
+                    "iconColor": "purple",
+                    "type": "externalLink",
+                    "destination": {
+                        "url": "https://www.ncsu.edu/privacy"
+                    }
+                },
+                {
+                    "id": "terms",
+                    "title": "Terms of Service",
+                    "subtitle": "Usage terms and conditions",
+                    "icon": "doc.text.fill",
+                    "iconColor": "gray",
+                    "type": "externalLink",
+                    "destination": {
+                        "url": "https://www.ncsu.edu/terms"
+                    }
+                },
+                {
+                    "id": "support",
+                    "title": "Contact Support",
+                    "subtitle": "Get help with the app",
+                    "icon": "envelope.fill",
+                    "iconColor": "green",
+                    "type": "email",
+                    "destination": {
+                        "url": "mailto:support@ncsu.edu?subject=Welcome%20Pack%20Support"
+                    }
+                }
+            ]
+        }
+    ],
+    "lastUpdated": "2025-12-18T12:00:00Z"
+}
